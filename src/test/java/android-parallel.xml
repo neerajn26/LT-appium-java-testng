@@ -4,17 +4,17 @@
 
     <test name="AndroidAppTest 1">
         <parameter name="version" value="11"/>
-        <parameter name="platform" value="Android"/>
-        <parameter name="device" value="Galaxy.*"/>
+        <parameter name="platform" value="androidtv"/>
+        <parameter name="device" value="Nvidia Shield TV"/>
         <classes>
             <class name="AndroidApp"/>
         </classes>
     </test>
 
     <test name="AndroidAppTest 2">
-        <parameter name="version" value="12"/>
-        <parameter name="platform" value="Android"/>
-        <parameter name="device" value="Galaxy.*"/>
+        <parameter name="version" value="11"/>
+        <parameter name="platform" value="androidtv"/>
+        <parameter name="device" value="Nvidia Shield TV"/>
         <classes>
             <class name="AndroidApp"/>
         </classes>
