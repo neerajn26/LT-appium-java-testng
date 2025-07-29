@@ -28,7 +28,7 @@ public class AndroidApp {
             capabilities.setCapability("name", platform + " " + device + " " + version);
             capabilities.setCapability("deviceName", device);
             capabilities.setCapability("platformVersion", version);
-            capabilities.setCapability("platformName", platform);
+            capabilities.setCapability("platform", platform);
             capabilities.setCapability("isRealMobile", true);
             capabilities.setCapability("privateCloud", true);
             //AppURL (Create from Wikipedia.apk sample in project)
