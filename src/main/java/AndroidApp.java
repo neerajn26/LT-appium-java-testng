@@ -24,15 +24,15 @@ public class AndroidApp {
     public void AndroidApp1(String device, String version, String platform) {
         try {
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setCapability("build", "Java TestNG");
+            capabilities.setCapability("build", "AndroidTV");
             capabilities.setCapability("name", platform + " " + device + " " + version);
             capabilities.setCapability("deviceName", device);
             capabilities.setCapability("platformVersion", version);
             capabilities.setCapability("platformName", platform);
             capabilities.setCapability("isRealMobile", true);
+            capabilities.setCapability("privateCloud", true);
             //AppURL (Create from Wikipedia.apk sample in project)
-            capabilities.setCapability("app", app_id); //Enter your app url
-            capabilities.setCapability("deviceOrientation", "PORTRAIT");
+            capabilities.setCapability("app", "lt://APP10160301691753796235770542"); //Enter your app url
             capabilities.setCapability("network", false);
             capabilities.setCapability("visual", true);
             capabilities.setCapability("devicelog", true);
